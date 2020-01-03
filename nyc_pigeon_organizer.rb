@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     hash.each { | tier2, array|
       array.each { | name | if new_hash[name].has_key?(name)
         new_hash[name] = {}
-        
+
         if new_hash[name].has_key?(tier1)
           new_hash[name][tier1] = []
 
